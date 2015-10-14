@@ -4,22 +4,30 @@ import android.app.Dialog;
 import android.content.Context;
 import android.location.Criteria;
 import android.location.Location;
+import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.text.Editable;
+import android.text.Html;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.ImageButton;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.gfirem.elrosacruz.entity.NavigationDataSet;
 import com.gfirem.elrosacruz.entity.Placemark;
+import com.gfirem.elrosacruz.entity.Size;
+import com.gfirem.elrosacruz.utils.BaseUtils;
+import com.gfirem.elrosacruz.utils.DisplayUtil;
 import com.gfirem.elrosacruz.utils.MapHelper;
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
@@ -34,6 +42,7 @@ import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.sothree.slidinguppanel.SlidingUpPanelLayout;
 
 import java.util.ArrayList;
 
@@ -47,10 +56,17 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
     private View spinnerCenterLoading;
     private NavigationDataSet markerDataSet;
     private LatLng my_location;
+    private LatLng init_1 = new LatLng(41.692712, -130.250764);
+    private LatLng init_2 = new LatLng(-55.872848, -32.580848);
     private MapHelper mapHelper;
     private ArrayList<Placemark> places;
     private AutoCompleteTextView txtFind;
     private ImageButton btnClear;
+    private InputMethodManager imm;
+    private SlidingUpPanelLayout lytPanel;
+    private TextView txtPlaceTitle;
+    private TextView txtPlaceDescription;
+    private RelativeLayout lytOverMenu, detailsContainer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,10 +75,32 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
 
         spinnerCenterLoading = findViewById(R.id.progress);
         txtFind = (AutoCompleteTextView) findViewById(R.id.txtFind);
+        btnClear = (ImageButton) findViewById(R.id.btnClear);
+        lytPanel = (SlidingUpPanelLayout) findViewById(R.id.sliding_layout);
+        txtPlaceTitle = (TextView) findViewById(R.id.txtPlaceTitle);
+        txtPlaceDescription = (TextView) findViewById(R.id.txtPlaceDescription);
+        lytOverMenu = (RelativeLayout) findViewById(R.id.over_menu);
+        detailsContainer = (RelativeLayout) findViewById(R.id.detailsContainer);
+
+        lytPanel.setPanelSlideListener(slidePanelListener);
+        lytPanel.setPanelHeight(0);
+        lytPanel.setShadowHeight(0);
+        lytPanel.setCoveredFadeColor(getResources().getColor(android.R.color.transparent));
         txtFind.setText("");
         txtFind.setHint("Encuentra tu templo");
-        txtFind.setCursorVisible(false);
-        btnClear = (ImageButton) findViewById(R.id.btnClear);
+        txtFind.setCursorVisible(true);
+
+        lytOverMenu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                lytPanel.setPanelState(SlidingUpPanelLayout.PanelState.COLLAPSED);
+                hideOverMenu();
+            }
+        });
+        showCenterWaiting();
+
+        imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+
 
         int status = GooglePlayServicesUtil.isGooglePlayServicesAvailable(getBaseContext());
 
@@ -113,10 +151,13 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 if (txtFind.getText().length() > 0) {
+                    txtFind.setHint("");
+                    txtFind.setCursorVisible(true);
                     btnClear.setVisibility(View.VISIBLE);
                     btnClear.bringToFront();
                 } else {
                     btnClear.setVisibility(View.GONE);
+                    txtFind.setHint("Encuentra tu templo");
                 }
             }
 
@@ -130,19 +171,6 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
 
             }
         });
-
-//        txtFind.setOnFocusChangeListener(new View.OnFocusChangeListener() {
-//
-//            @Override
-//            public void onFocusChange(View v, boolean hasFocus) {
-//                if (hasFocus) {
-//                    txtFind.setHint("");
-//                    txtFind.setCursorVisible(true);
-//                } else {
-//                    txtFind.setHint("Encuentra tu templo");
-//                }
-//            }
-//        });
 
         txtFind.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
@@ -160,13 +188,40 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
                         mMap.clear();
                         addMarkers(temples);
                     }
-                    InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
                     imm.hideSoftInputFromWindow(txtFind.getWindowToken(), 0);
                 }
             }
         });
 
     }
+
+    SlidingUpPanelLayout.PanelSlideListener slidePanelListener = new SlidingUpPanelLayout.PanelSlideListener() {
+
+        @Override
+        public void onPanelSlide(View view, float v) {
+
+        }
+
+        @Override
+        public void onPanelCollapsed(View view) {
+            hideOverMenu();
+        }
+
+        @Override
+        public void onPanelExpanded(View view) {
+
+        }
+
+        @Override
+        public void onPanelAnchored(View view) {
+
+        }
+
+        @Override
+        public void onPanelHidden(View view) {
+
+        }
+    };
 
     /**
      * Manipulates the map once available.
@@ -188,7 +243,8 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.setOnMapLoadedCallback(new GoogleMap.OnMapLoadedCallback() {
             @Override
             public void onMapLoaded() {
-                // setCurrentLocation(map);
+                hideCenterWaiting();
+//                 setCurrentLocation(mMap);
                 if (my_location != null) {
                     LatLng near_places = places.get(0).getCoordinates();
                     mapHelper.zoomToFitLatLongs(my_location, near_places);
@@ -198,6 +254,9 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
                             .snippet(
                                     "El templo te queda a " + Math.ceil(places.get(0).getDistance()) + "KM")
                             .title("Mi posición")).showInfoWindow();
+                }
+                else{
+                    mapHelper.zoomToFitLatLongs(init_1, init_2);
                 }
                 addMarkers(places);
             }
@@ -218,8 +277,26 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
 
                 Placemark current = markerDataSet.findById(marker.getId());
                 if (current != null) {
-                    Toast.makeText(MainActivity.this, "Nombre " + current.getTitle(), Toast.LENGTH_SHORT).show();
+                    marker.hideInfoWindow();
+                    if(lytPanel != null && !current.isCountry()){
+                        showOverMenu();
+
+//                        Size size1 = BaseUtils.getTextSize(current.getTitle());
+//                        Size size2 = BaseUtils.getTextSize(current.getDescription());
+//
+//                        int percentHeight = ((50+size1.getHeight()+size2.getHeight())*100)/DisplayUtil.getDisplayHeight(MainActivity.this);
+//
+//                        DisplayUtil.setSizeByPercent(detailsContainer, ViewGroup.LayoutParams.MATCH_PARENT, percentHeight);
+
+                        txtPlaceTitle.setText(current.getTitle());
+                        txtPlaceDescription.setText(Html.fromHtml(current.getDescription()));
+                        lytPanel.setPanelState(SlidingUpPanelLayout.PanelState.EXPANDED);
+                    }
+                    else{
+                        Toast.makeText(MainActivity.this, "No hay detalles! ", Toast.LENGTH_SHORT).show();
+                    }
                 }
+
             }
         });
     }
@@ -239,6 +316,8 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
 
         mTracker.setScreenName("MainActivity");
         mTracker.send(new HitBuilders.ScreenViewBuilder().build());
+
+        imm.hideSoftInputFromWindow(txtFind.getWindowToken(), 0);
     }
 
 
@@ -283,6 +362,23 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
         }
     }
 
+    public void showOverMenu() {
+        lytOverMenu.setBackgroundColor(getResources().getColor(R.color.app_text_color_dark_alpha));
+        lytOverMenu.setVisibility(View.VISIBLE);
+        btnClear.setVisibility(View.GONE);
+    }
+
+    public void hideOverMenu() {
+        lytOverMenu.setVisibility(View.GONE);
+        if (txtFind.getText().length() > 0) {
+            btnClear.setVisibility(View.VISIBLE);
+        }
+    }
+
+    public boolean isOverMenuShow() {
+        return lytOverMenu.getVisibility() == View.VISIBLE;
+    }
+
     public void setCurrentLocation(GoogleMap map) {
         map.setMyLocationEnabled(true);
         LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
@@ -298,7 +394,34 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
     public Location getMyLocation() {
         LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         Criteria criteria = new Criteria();
-        return locationManager.getLastKnownLocation(locationManager.getBestProvider(criteria, false));
+        Location location = null;
+        String provider = locationManager.getBestProvider(criteria, true);
+        if (provider != null) {
+
+            locationManager.requestLocationUpdates(provider, 100, 1, new LocationListener() {
+                @Override
+                public void onLocationChanged(Location location) {
+                    my_location = new LatLng(location.getLatitude(), location.getLongitude());
+                }
+
+                @Override
+                public void onStatusChanged(String provider, int status, Bundle extras) {
+
+                }
+
+                @Override
+                public void onProviderEnabled(String provider) {
+
+                }
+
+                @Override
+                public void onProviderDisabled(String provider) {
+
+                }
+            });
+            location = locationManager.getLastKnownLocation(provider);
+        }
+        return location;
     }
 
     public void moveToLocation(final GoogleMap map, final LatLng latLng) {
@@ -320,4 +443,5 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
     public Marker addMarker(MarkerOptions options) {
         return mMap.addMarker(options);
     }
+
 }

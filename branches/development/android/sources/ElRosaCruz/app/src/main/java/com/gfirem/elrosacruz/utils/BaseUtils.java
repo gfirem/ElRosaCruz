@@ -14,6 +14,7 @@ import java.util.Map;
 import java.util.Random;
 
 import com.gfirem.elrosacruz.SplashActivity;
+import com.gfirem.elrosacruz.entity.Size;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 
@@ -23,6 +24,8 @@ import android.app.ActivityManager;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
+import android.graphics.Paint;
+import android.graphics.Rect;
 import android.net.Uri;
 import android.text.SpannableString;
 import android.text.style.UnderlineSpan;
@@ -303,5 +306,17 @@ public class BaseUtils {
 
 	public static String getBaseName(String Url) {
 		return Url.substring(Url.lastIndexOf('/') + 1);
+	}
+
+	public static Size getTextSize(String text){
+		Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG | Paint.LINEAR_TEXT_FLAG);
+
+		paint.setStyle(Paint.Style.FILL);
+		paint.setTextAlign(Paint.Align.LEFT);
+
+		Rect bounds = new Rect();
+		paint.getTextBounds(text, 0, text.length(), bounds);
+
+		return new Size(bounds.width(), bounds.height());
 	}
 }

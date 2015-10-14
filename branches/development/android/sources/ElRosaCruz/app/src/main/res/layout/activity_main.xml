@@ -1,48 +1,102 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/app_text_color_light"
     tools:context=".MainActivity">
 
-    <fragment
-        android:id="@+id/map"
-        android:name="com.google.android.gms.maps.SupportMapFragment"
+    <com.sothree.slidinguppanel.SlidingUpPanelLayout xmlns:sothree="http://schemas.android.com/apk/lib/com.PixelIris.MagicXperienceU5"
+        android:id="@+id/sliding_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        app:umanoDragView="@+id/detailsContainer"
+        sothree:umanoClipPanel="true"
+        sothree:umanoFadeColor="@color/app_main_color"
+        sothree:umanoPanelHeight="0dp"
+        sothree:umanoShadowHeight="10dp">
 
-    <include layout="@layout/fragment_loading" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    <AutoCompleteTextView
-        android:id="@+id/txtFind"
-        style="@style/Text1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="top"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_marginTop="10dp"
-        android:ellipsize="end"
-        android:ems="10"
-        android:gravity="center_vertical|center_horizontal"
-        android:hint="Encuentra tu templo"
-        android:inputType="text"
-        android:minHeight="40dp"
-        android:nextFocusLeft="@id/txtFind"
-        android:nextFocusUp="@id/txtFind"
-        android:singleLine="true" />
+            <fragment
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
 
-    <ImageButton
-        android:id="@+id/btnClear"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/txtFind"
-        android:layout_alignRight="@+id/txtFind"
-        android:layout_alignTop="@+id/txtFind"
-        android:background="@null"
-        android:focusable="true"
-        android:scaleType="fitEnd"
-        android:src="@drawable/close_ico"
-        android:visibility="gone" />
+            <include layout="@layout/fragment_loading" />
+
+            <AutoCompleteTextView
+                android:id="@+id/txtFind"
+                style="@style/Text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:ems="10"
+                android:gravity="center_vertical|center_horizontal"
+                android:hint="Encuentra tu templo"
+                android:inputType="text"
+                android:minHeight="40dp"
+                android:nextFocusLeft="@id/txtFind"
+                android:nextFocusUp="@id/txtFind"
+                android:singleLine="true" />
+
+            <ImageButton
+                android:id="@+id/btnClear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/txtFind"
+                android:layout_alignRight="@+id/txtFind"
+                android:layout_alignTop="@+id/txtFind"
+                android:background="@null"
+                android:focusable="true"
+                android:scaleType="fitEnd"
+                android:src="@drawable/close_ico"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/over_menu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/app_text_color_dark_alpha"
+                android:visibility="gone"></RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/detailsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/app_text_color_light"
+            android:clickable="true"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/txtPlaceTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/txtPlaceDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtPlaceTitle"
+                android:layout_margin="5dp"
+                android:autoLink="phone|web|email"
+                android:inputType="textNoSuggestions|textMultiLine"
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </RelativeLayout>
+
+    </com.sothree.slidinguppanel.SlidingUpPanelLayout>
 
 
 </RelativeLayout>

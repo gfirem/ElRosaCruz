@@ -1,15 +1,13 @@
 package com.gfirem.elrosacruz;
 
 import android.app.Application;
-import android.content.Context;
 import android.util.Log;
 
-import com.gfirem.elrosacruz.utils.Constant;
 import com.google.android.gms.analytics.GoogleAnalytics;
 import com.google.android.gms.analytics.Tracker;
 
-import org.acra.*;
-import org.acra.annotation.*;
+import org.acra.ACRA;
+import org.acra.annotation.ReportsCrashes;
 
 import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 
@@ -17,9 +15,9 @@ import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
  * Created by GFireM on 10/14/2015.
  */
 @ReportsCrashes(
-        formKey = "a2054175ad184fa7b8763251b9bc369e",
-        formUri = "https://collector.tracepot.com/140e24ed")
-public class ApplicationController extends Application{
+        formKey = "b856e786e56842b1b8bc0395923d3377",
+        formUri = "https://collector.tracepot.com/2c4882bc")
+public class ApplicationController extends Application {
 
     private static ApplicationController fInstance;
     private Tracker mTracker;
@@ -47,6 +45,7 @@ public class ApplicationController extends Application{
 
     /**
      * Gets the default {@link Tracker} for this {@link Application}.
+     *
      * @return tracker
      */
     synchronized public Tracker getDefaultTracker() {
