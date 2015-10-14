@@ -1,0 +1,1723 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+			<Placemark>
+				<name>ARGENTINA</name>
+				<country>ARGENTINA</country>
+				<styleUrl>#icon-55-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-64.072266,-35.675147,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Buenos Aires</name>
+				<description><![CDATA[Logia y Heptada AMORC Bs.As. (http://www.amorc.org.ar/default.htm)<br>Charlone No.80  C.P.: 1427, <br>Autonoma de Buenos Aires,<br>Viernes 20:30 hrs.<br>Tel. 4854 7443<br>amorcccbsas@hotmail.com<br>ARGENTINA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-58.446579,-34.5851,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Cruz del Sur</name>
+				<description><![CDATA[Pronaos Cruz del Sur <br><br><br>Fonrouge # 551 Bis, C.P.: 1832, <br>Lomas de Zamora, Buenos Aires,<br>1º Sabado 19:30 Hrs. 2º Domingo 11:30 Hrs<br>Tel.: 540-1142928038<br>rosacruzdelsur@yahoo.com.ar<br>ARGENTINA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-58.385661,-34.759578,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Bahía Blanca</name>
+				<description><![CDATA[Pronaos Bahía Blanca (http://amorc-bbca.com.ar/)<br>Baigorria 1730<br>C.P. 8000 Bahía Blanca<br>Provincia de Buenos Aires<br>info@amorc-bbca.com.ar<br>Atención al Público: Miércoles 20:00 hrs.<br>ARGENTINA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-62.231133,-38.721094,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Córdoba</name>
+				<description><![CDATA[Logia Córdoba (http://www.rosacruzcba.com.ar/)<br>Juan Perazzo 4877, Barrio Los Angeles<br>Código Postal 5009<br>Córdoba Capital<br>Viernes 21:00 hrs<br>Tel.: 00+54 35 1481 7199<br>ccrcacordoba@hotmail.com<br>ARGENTINA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-64.237533,-31.356386,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Mendoza</name>
+				<description><![CDATA[Pronaos Mendoza<br>Bonfanti No.1085, C.P.: 5525, <br>Ciudad Rodeo de la Cruz Guaymellen, Mendoza, Argentina <br>Tel.: 26 1420 2731<br>Sábado 16:00 Hrs<br>ARGENTINA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-68.754437,-32.928013,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Neuquén</name>
+				<description><![CDATA[Logia Neuquén<br><br><br>Realico # 509 Col. Barrio los Alamos<br>C.P.: 8316 Neuquén<br>Tel.: 00(540) 29 9442 9059<br>Sabado 16:30 hrs <br>No miembros Viernes 20:30 hrs en el salón Difusion Rosacruz , Rio-Bermejo No. 602- Neuquén<br>ARGENTINA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-68.232307,-38.954069,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Luz del Golfo Nuevo</name>
+				<description><![CDATA[Logia y Hepatada Luz del Golfo Nuevo (http://www.amorcgolfonuevo.com)<br>El Jarillal 2154<br>Quintas El Mirador<br>C.P. 9120<br>Puerto Madryn, Chubut, <br>Reuniones Miembros Sábados 18:00 hrs<br>Atención al público: 2º Domingo del mes 18:00 hrs.<br>Tel.: (+)-54-0280-4882272<br>info@amorcgolfonuevo.com<br>ARGENTINA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-65.040886,-42.810278,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Puerto Madryn</name>
+				<description><![CDATA[Pronaos Puerto Madryn <br><br>Agustín Pujol No. 452- C.P.: 9120, <br>Puerto Madryn, Chubut, <br>Viernes 1º y 3º de Mes a 20:00 Hrs, <br>No Miembros Sábados 18:00 y 20:00 Hrs.<br>ARGENTINA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-65.043461,-42.765706,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Rosario</name>
+				<description><![CDATA[Capítulo Rosario <br><br><br>Ocampo 1269, C.P. 2000 <br>Rosario - Santa Fe<br>rosacruzrosario@gmail.com<br>1º Domingo y 3º Sabado 17:30 hrs y 18:30 hrs<br>ARGENTINA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-60.645432,-32.965899,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Luz de Salta</name>
+				<description><![CDATA[Pronaos Luz de Salta<br>Avenida Belgrano 461, Primer Piso Local 7, C.P.: 4400<br>Salta, Argentina<br>Reuniones para todo público todos los Martes. Para Miembros los días Viernes, siempre a las 21:30 hs.<br>ARGENTINA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-65.40895,-24.787728,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Santa Fé</name>
+				<description><![CDATA[Pronaos Santa Fé (http://rosacruzsantafe.wix.com/rosacruzsf)<br>1° junta 2974<br>Santa Fé, Santa Fé<br>Sábados 19:00 Hrs<br>Tel.: 00 5434 2456<br>rosacruzsantafe@gmail.com<br>ARGENTINA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-60.71169400000001,-31.646879,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Santiago del Estero</name>
+				<description><![CDATA[Capitulo Santiago del Estero<br>Independencia #341 Planta Baja, Ala Norte, Urb. Barrio Centro, C.P.:4200 <br>Sábados: 19,00 hs. a 20,00 hs. (invierno) y 20,00 hs. a 21,00 hs. (verano)<br>centroculturalsde@yahoo.com.ar<br>Tel: 54(0385)4390075<br>ARGENTINA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-64.256566,-27.789979,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Tandil</name>
+				<description><![CDATA[Pronaos Tandil<br>San Martin 1312, C.P. 7000<br>Tandil, Buenos Aires, <br>amorctandil@yahoo.com.ar ccratandil1@ciudad.com.ar<br>ARGENTINA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-59.12617600000001,-37.322402,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Grupo de Estudios y Divulgación Mar del Plata</name>
+				<description><![CDATA[Grupo de Estudios y Divulgación Mar del Plata<br>Santiago del Estero 1718-1-Piso 2 (7600) Mardez Ruta<br>Tel.: 00-223-4955974<br>ARGENTINA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-57.545958000000006,-38.000153,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Grupo de Estudios y Divulgación Comodoro Rivadavia</name>
+				<description><![CDATA[Grupo de Estudios y Divulgación <br>Comodoro Rivadavia<br>estudiorosacruz@hotmail.com]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-67.50339,-45.870507,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BOLIVIA</name>
+				<country>BOLIVIA</country>
+				<styleUrl>#icon-55-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-64.248047,-14.689881,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Tunari</name>
+				<description><![CDATA[Logia Tunari<br>134 Beni<br>Cochabamba, <br>Lunes 19:30 hrs<br>logiatunariamorc@hotmail.com<br>BOLIVIA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-66.15676,-17.377011,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC La Paz</name>
+				<description><![CDATA[Logia La Paz (http://amorcbolivia.jimdo.com/)<br>Av. 6 de Agosto Nº 2954, San Jorge <br>La Paz, BOLIVIA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-68.125019,-16.510635,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Santa Cruz</name>
+				<description><![CDATA[Pronaos Santa Cruz<br>Independencia # 264 - Planta Alta, Col. Cochabamba<br>Jueves 20:00 hrs.<br>Tel.: 731-58282 - 756-46595 - 770-42338 amorcsc2@yahoo.com<br>Bolivia]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-63.182201,-17.787879,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CHILE</name>
+				<country>CHILE</country>
+				<styleUrl>#icon-55-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-70.3125,-27.293689,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Bio-Bio</name>
+				<description><![CDATA[Pronaos Maat (http://http://www.amorc.cl/)<br><br>Concepción<br>Sábado  17:30 Hrs<br>Tel.: 56412560213/56412797186<br>concepcion@amorc.cl<br>CHILE]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-73.100238,-36.741016,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Luz de Temuco</name>
+				<description><![CDATA[Pronaos Luz de Temuco (http://http://www.amorc.cl/)<br>Prieto Norte 2654<br>Temuco,<br>Miércoles 20:30 Hrs<br>Tel.: 09-1004439<br>anygejman@hotmail.com<br>CHILE]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-72.599652,-38.731707,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Punta Arenas</name>
+				<description><![CDATA[Logia Punta Arenas (http://http://www.amorc.cl/)<br>Lautaro Navarro no. 490<br>Punta Arenas,<br>Martes y Jueves 19:00 Hrs, No Miembros Viernes 19:00 Hrs<br>Tel.: 61-220751 / 97-450037<br>logia.puntarenas.amorc@gmail.com<br>toyamagallanica@yahoo.es<br>CHILE]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-70.901341,-53.158223,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Akhetaton</name>
+				<description><![CDATA[Logia Akhetaton  (http://http://www.amorc.cl/)<br>Ave. Los Carrera no. 01329 Paradero Nº 31<br>Sábados 19:00 hrs no-miembros 16:30 hrs<br>Fono fax: 56-032 -3187622<br>ccra_akhetaton@yahoo.es<br>Quilpue<br>CHILE]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-71.467609,-33.042927,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Tell-El-Amarna</name>
+				<description><![CDATA[Logia Tell-El-Amarna (http://http://www.amorc.cl/)<br>Lynch Norte N° 681, comuna de La Reina,(cerca estación Metro Simón Bolívar),<br>Santiago, Región Metropolitana, Chile<br>Martes 20:00 hrs<br>Tel.: 5627379606<br>amarna.maestro@gmail.com<br>CHILE]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-70.566087,-33.446822,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Grupo de estudio y divulgación San Carlos</name>
+				<description><![CDATA[Grupo de Estudios San Carlos<br>Carrera 221<br>maelmama@hotmail.com]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-71.952381,-36.424995,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Grupo de estudios y divulgación La Serena</name>
+				<description><![CDATA[Grupo de Estudios Valle de Las Estrellas (http://http://www.amorc.cl/)<br>laserena@amorc.cl]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-71.246853,-29.910157,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>COLOMBIA</name>
+				<country>COLOMBIA</country>
+				<styleUrl>#icon-55-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-70.795898,1.757537,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Atlantis</name>
+				<description><![CDATA[Pronaos Atlantis (http://rosacruces.info/)<br>Chia - Cundinamarca a 15 minutos de Bogotáen el CLUB PROVIDA.<br>Colombia]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.065018,4.879103,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Barranquilla</name>
+				<description><![CDATA[Logia Barranquilla<br>Carrera 39, No. 44-74,<br>Barranquilla, Atlántico,<br>Jueves 19:00 hrs-Domingo 11:00 hrs<br>Tel.: 57-53414539<br>cencubar@hotmail.com<br>COLOMBIA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.791617,10.981734,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Christian Rosenkreutz</name>
+				<description><![CDATA[Pronaos Christian Rosenkreutz<br>Carrera 87 B # 90-58 Int. 4, Barrio la Serena<br>Bogotá, D.C.<br>Sábados 4:30 Hrs<br>pronaoscrk@yahoo.com<br>COLOMBIA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.095488,4.712416,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Menfis</name>
+				<description><![CDATA[Capitulo Menfis (https://sites.google.com/site/rosacruzcali/home)<br>Calle 34a # 3cn-55<br>Tel.: 668 39 53<br>Cali, COLOMBIA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-76.523874,3.472277,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Nuevo Mundo</name>
+				<description><![CDATA[Logia Nuevo Mundo<br>Calle 67 # 6 - 41<br>Teléfono 248 11 67<br>Bogotá D.C.<br>COLOMBIA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.05784,4.650342,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Pereira</name>
+				<description><![CDATA[Pronaos Pereira<br><br><br>carrera 5a N.24-45<br>Pereira, Risaralda<br>Viernes 18:30 Hrs, no miembros Viernes 17:30 Hrs<br>Tel.: 3338313<br>COLOMBIA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-75.698665,4.817002,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Primavera</name>
+				<description><![CDATA[Pronaos Primavera<br>Apartado Aéreo No. 81354<br>Manizales<br>Colombia]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-75.517756,5.066033000000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>COSTA RICA</name>
+				<country>COSTA RICA</country>
+				<styleUrl>#icon-55-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-83.364258,10.228437,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Sibó</name>
+				<description><![CDATA[Pronaos Sibó <br><br><br>Calle 5 y Paseo Calderon Muñoz<br>Al costado Este de la Iglesia San Cayetano<br>Tel.: 222-0018<br>San José, COSTA RICA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-84.078434,9.920895,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Cuenca</name>
+				<description><![CDATA[Pronaos Cuenca (http://www.amorcrosacruzcuenca.org/index.php)<br>100 Mts Cuenca Tenis S/N, Cuenca, Azuay<br>ECUADOR]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-79.000776,-2.8966880000000006,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Guayaquil</name>
+				<description><![CDATA[Capitulo Guayaquil (http://www.amorc-guayaquil.org/)<br>Eloy Alfaro 2006 y Venezuela<br>Tel.: 098070742<br>info@amorc-guayaquil.org]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-79.888866,-2.19156,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Quito</name>
+				<description><![CDATA[Logia Quito (http://www.rosacruzamorcecuador.org/)<br>El Día N37-48 y El Comercio (detrás del Quicentro-Shopping)<br>	Quito <br>Tel.: 00 593- 2241603 / ( 593 ) 022901023<br>amorcecuador@yahoo.com<br>ECUADOR]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-78.478496,-0.174687,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CUBA</name>
+				<country>CUBA</country>
+				<styleUrl>#icon-55-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-78.892822,22.146708,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Lago Moeris</name>
+				<description><![CDATA[Logia Lago Moeris<br>Santa Emilia No.416<br>La Habana, CUBA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-82.37051,23.105431,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Camagüey</name>
+				<description><![CDATA[Logia Camagüey<br>Calle C no. 2 entre 2 y 4, reparto Guernica, Camagüey, CUBA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-77.906306,21.396919,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Santa Clara</name>
+				<description><![CDATA[Logia Santa Clara<br>Calle Colón esquina Alejandro OMS<br>Santa Clara, CUBA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-79.961361,22.396864,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ECUADOR</name>
+				<country>ECUADOR</country>
+				<styleUrl>#icon-55-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-77.508545,-1.428075,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Cuenca</name>
+				<description><![CDATA[Pronaos Cuenca (http://www.amorcrosacruzcuenca.org/index.php)<br>100 Mts Cuenca Tenis S/N, Cuenca, Azuay<br>ECUADOR]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-79.003887,-2.895895,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Guayaquil</name>
+				<description><![CDATA[Capitulo Guayaquil (http://www.amorc-guayaquil.org/)<br>Eloy Alfaro 2006 y Venezuela<br>Tel.: 098070742<br>info@amorc-guayaquil.org]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-79.889016,-2.191453,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Quito</name>
+				<description><![CDATA[Logia Quito (http://www.rosacruzamorcecuador.org/)<br>El Día N37-48 y El Comercio (detrás del Quicentro-Shopping)<br>	Quito <br>Tel.: 00 593- 2241603 / ( 593 ) 022901023<br>amorcecuador@yahoo.com<br>ECUADOR]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-78.478496,-0.174687,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>EL SALVADOR</name>
+				<country>EL SALVADOR</country>
+				<styleUrl>#icon-55-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-88.478394,13.806075,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Santa Ana</name>
+				<description><![CDATA[Pronaos Santa Ana<br>Urbanización Libertad, Block "C" Número 10, Entre 33a./35a. Calle Poniente. (atras del INSA)<br>Santa Ana, EL SALVADOR]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-89.563229,13.979172,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC San Miguel</name>
+				<description><![CDATA[Capitulo San Miguel<br>Av. Roosevelt Sur, Fte. A DUA<br>EL SALVADOR]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-88.183758,13.469785000000002,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC San Salvador</name>
+				<description><![CDATA[Logia San Salvador<br>Local 71 a. Av. Sur # 324<br>Col. Escalón, El Salvador,<br>Tel: 2223-0237<br>Horario martes a sábado de 2:30 p.m. a 5:30 p.m.<br>Domingo de 9:00 a.m. a 12:m<br>EL SALVADOR]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-89.22986300000001,13.683684,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Sonsonate</name>
+				<description><![CDATA[Pronaos Sonsonate<br>Calle 6ª Av. Sur # 23, Urb. Asturias<br>Sonsonate, EL SALVADOR]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-89.72894700000002,13.713287,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Estados Unidos</name>
+				<country>Estados Unidos</country>
+				<styleUrl>#icon-55-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-101.513672,40.044438,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Tutmosis III</name>
+				<description><![CDATA[Logia Tutmosis III<br>3668 Santa Fe Ave.<br>Long Beach CA. 90810<br>Tel.: (562) 537-1242<br>ESTADOS UNIDOS]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-118.215262,33.823911,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Pomona</name>
+				<description><![CDATA[Pronaos Pomona (http://www.amorc4.org/organismos/pomona.htm)<br>935 S. Thomas Street<br>Pomona, CA 91912<br>pomona-pronaos@hotmail.com<br>ESTADOS UNIDOS]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-117.75099299999998,34.051059,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC San Francisco</name>
+				<description><![CDATA[Pronaos San Francisco (http://www.amorc4.org/organismos/sanfrancisco.htm)<br>17 Hillcrest Drive<br>Daly City, CA 94014<br>ESTADOS UNIDOS]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-122.46217500000002,37.705893,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC San José</name>
+				<description><![CDATA[Logia San José (http://www.amorc4.org/organismos/sanjose.htm)<br>Parque Rosacruz<br>1342 Naglee Avenue<br>San José, CA 95191<br>ESTADOS UNIDOS]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-121.92287900000001,37.33403,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Logia Washington D.C.</name>
+				<description><![CDATA[Logia Washington D.C. Taller Martinist (http://www.amorcwdc.org)a<br>4839 Meade Street Northeast<br>Washington D.C., DC 20019<br>Domingo 09:00 hrs.<br>Tel.: 18883170099<br>rosacruzwdc@gmail.com<br>ESTADOS UNIDOS]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-76.931924,38.905996,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Hialeah</name>
+				<description><![CDATA[Capitulo Hialeah<br><br><br>1671 West 37 Street #8, <br>Hialeah, Florida 33012<br>Tel.: (305)825 2550<br>ESTADOS UNIDOS]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-80.316324,25.855014000000004,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Mistes</name>
+				<description><![CDATA[Logia Mistes (http://glhamorcmistes.org/) Heptada Martinista<br>11474 West Flagger St.<br>Miami, Fl. 33174<br>Viernes 20:00 Hrs y Domingo 11:00 Hrs<br>Tel: (305) 226 2109<br>ESTADOS UNIDOS]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-80.382264,25.768069,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Chicago</name>
+				<description><![CDATA[Logia Chicago (http://www.logiachicagoamorc.org/contact_us.html)<br>5083 N. Elston Ave.<br>Chicago, Illinois, 60630<br>Tel.: 773-282-6672<br>ESTADOS UNIDOS]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-87.748618,41.973434,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Elizabeth</name>
+				<description><![CDATA[Capitulo Elizabeth Taller Martinista<br><br><br>521 Jackson Avenue<br>Elizabeth, NJ, <br>ESTADOS UNIDOS]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-74.203538,40.671793,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Bronx</name>
+				<description><![CDATA[Capitulo Bronx<br><br><br>Av. Grant No. 996<br>Viernes 21:00 Hrs. Miércoles y Sábado  21:00 hrs. A todo público<br>Nueva York<br>ESTADOS UNIDOS]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-73.86044,40.848347,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Brooklyn</name>
+				<description><![CDATA[Logia y Heptada Brooklyn (http://www.logiahispananyamorc.org/index.html) <br>98 Hill Street<br>Brooklyn, NY. 11208<br>Tel.:718-647-4278<br>logiabrooklyn98@hotmail.com<br>Abierto los Domingos de 10:00 a 17:00 hrs.<br>ESTADOS UNIDOS]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-73.869796,40.678791,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Manhattan</name>
+				<description><![CDATA[Capitulo Manhattan<br><br><br>Fort Washington No. 47<br>New York, NY 10033-0668<br>ESTADOS UNIDOS]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-73.98762,40.735234,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Dallas</name>
+				<description><![CDATA[Capitulo Dallas<br><br><br>4617 Insurance Lane, <br>Dallas, TX 75205,<br>ESTADOS UNIDOS]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-96.786418,32.822913,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Armonía</name>
+				<description><![CDATA[Logia Armonía y taller Martinista (http://www.rosacrucesamorc.com/main.html)<br>6502 Stratton at (Griggs) <br>Houston TX. 77023<br>Viernes 20:30 Hrs, Miércoles y Sabados 19:30 Hrs y 20:30 Hrs<br>                                        Tel.: 713-847-7457<br>logia_armonia@yahoo.com<br>ESTADOS UNIDOS]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-95.307239,29.708127,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Hermes</name>
+				<description><![CDATA[Pronaos Hermes<br><br><br>1819 Jefferson Street<br>Laredo Tx.<br>78040]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-99.51363700000002,27.523539,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC McAllen</name>
+				<description><![CDATA[Pronaos McAllen<br><br><br>2709 E. 34th St.<br>Weslaco, Tx. 78596<br>ESTADOS UNIDOS]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-97.964133,26.126876,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Universo</name>
+				<description><![CDATA[6127 Padre Drive <br><br><br>San Antonio, TX 78214 <br>Viernes 20:00 Hrs y Domingo 11:00 Hrs<br>Tel.: 210-534-1103<br>ESTADOS UNIDOS]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-98.47684800000002,29.366403,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Grupo de Estudios y Divulgación Tucson</name>
+				<description><![CDATA[Grupo de Estudios y Divulgación Tucson<br>Arizona<br>ESTADOS UNIDOS]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-110.93273200000002,32.235601,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>GUATEMALA</name>
+				<country>GUATEMALA</country>
+				<styleUrl>#icon-55-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-90.043945,16.509833,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Grupo de Estudios y Divulgación, Antigua Guatemala</name>
+				<description><![CDATA[Grupo de Estudios y Divulgación, Antigua Guatemala<br>2a. Avenida Norte # 2<br>Tel.: 48918281<br>Antigua Guatemala]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-90.731084,14.557406000000002,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Luz Divina</name>
+				<description><![CDATA[Pronaos Luz Divina<br>Colonia Piedras Negras. Santo Tomás de Castilla, Puerto Barrios IZABAL<br>Frente a Zona Libre de Comercio (ZOLIC).<br>GUATEMALA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-88.615336,15.686860999999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Zama</name>
+				<description><![CDATA[Logia Zama<br>6 avenida 7-15 interior 3, Zona 4, Guatemala, Guatemala, Centro América. <br>centroculturalrosacruzgt@gmail.com; <br>+(502)2362-7672<br>GUATEMALA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-90.517108,14.616246,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>HONDURAS</name>
+				<country>HONDURAS</country>
+				<styleUrl>#icon-55-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-86.308594,15.749963,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Francisco Morazán</name>
+				<description><![CDATA[Logia Francisco Morazán<br>Constel, Col. Comayaguela<br>Tegucigalpa<br>Sábado 16:00 hrs.<br>Tel.: (504) 234-6608<br>logiarosacruz.tegucigalpa@gmail.com<br>HONDURAS]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-87.228312,14.11585,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC San Pedro Sula</name>
+				<description><![CDATA[Logia San Pedro Sula<br>8 Calle, 2 Y 3 Ave. N.O. <br>Barrio Las Acacias, <br>Sábado 14:00 a 17:30 PM<br>Tel.: (504)2552-4338, 2552-4302 <br>E-Mail: amorc.sanpedrosula@gmail.com <br>San Pedro Sula, <br>HONDURAS]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-88.023469,15.511912000000002,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Travesía</name>
+				<description><![CDATA[Pronaos Travesía<br>Calle unica a la Aldea Travesía N/D<br>Domingos 9:00 hrs.<br>Tel.: (504) 9543-2808 Y (504) 3203-4903 <br>amorcpuertocortes@yahoo.com <br>HONDURAS]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-87.923756,15.861783,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>MEXICO</name>
+				<country>MEXICO</country>
+				<styleUrl>#icon-55-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-103.145142,23.644524,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Gran Logia A.M.O.R.C. Jurisdicción de Habla Hispana para las Américas A.C.</name>
+				<description><![CDATA[Gran Logia A.M.O.R.C (http://www.rosacruz.org/joomla_site/index.php)<br>Camino a los Naranjos No. 102,<br>San Pedro de los Hernández, Frente a Fracc. Real de los Naranjos, 37280 León,  Guanajuato, MEXICO<br>Tel. Conmutador: +52 (477) 104 42 76<br>Horario: de lunes a viernes de 8:30 a las 14:00 y de 15 a las 17:30 horas.<br>Facebook (https://www.facebook.com/AMORC.GLH)]]></description>
+				<styleUrl>#icon-157</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-101.634554,21.159,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Alpha-Omega</name>
+				<description><![CDATA[Logia Alpha-Omega<br>Calle Juarez # 2337<br>Colonia Ampliación Hidalgo<br>Ensenada Baja California<br>Código postal: 22830<br>Domingos 10:00 hrs.<br>Tel.: 01 646 176 8970<br>alpha-omega_amorc@hotmail.com]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-116.58039100000002,31.860610000000005,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Mexicali</name>
+				<description><![CDATA[CAPÍTULO MEXICALI<br>Blvd. Anáhuac #937 Col. Anáhuac Mexicali, B.C. México <br>Tel. 686 5 57 2731 <br>email ccrcmxli@hotmail.es]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-115.476372,32.631406,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Cosmos</name>
+				<description><![CDATA[Pronaos Cosmos Heptada Martinista<br>Calle Los Olivos #3011 <br>Fraccionamiento Calette, Tijuana, Baja California, MÉXICO , CP 22100<br>Domingos 11:00 hrs, público Sábados 17:00 a 19:00 hrs.<br>Tel: 01 664 686 1186<br>rosacruz_tijuana@hotmail.com]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-117.01374999999999,32.515968,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Monclova</name>
+				<description><![CDATA[Capitulo Monclova<br>Uruguay 816, Col. Guadalupe<br>Monclova, Coahuila<br>Martes 8:30 pm]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-101.433849,26.917421,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Nueva Rosita</name>
+				<description><![CDATA[Pronaos Rosita<br>Constitución 125, Colonia Americo Rodríguez Nueva Rosita, Coahuila<br>Domingo 12:00 hrs]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-101.229229,27.93965,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Saltillo</name>
+				<description><![CDATA[Pronaos Saltillo<br>Galeana 234, Zona Centro<br>Saltillo, Coahuila, México<br>Miércoles y Lunes 21:00 Hrs]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.998441,25.421891,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC La Laguna</name>
+				<description><![CDATA[Pronaos La Laguna<br>Av. Ocampo # 2653 Ote, Col Centro<br>Torreón, Coahuila<br>Sábados a las 16:00 Hrs]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-103.420122,25.54309,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Mactzumaczá</name>
+				<description><![CDATA[Pronaos Mactzumaczá<br>Grieta # 142, Fracc. La Gloria<br>Tuxtla Gutierrez, Chiapas<br>Martes 21:00 hrs<br>Tel.: 01 961 615 7720<br>nous54@hotmail.com]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-93.174024,16.758009,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Juárez</name>
+				<description><![CDATA[Logia Juárez taller Martinista<br>República de Chile # 892<br>Esquina con Tepeyac<br>Col. Hidalgo, Cd. Juárez, Chih.<br>Domingo 11:30 hrs<br>Tel y Fax 01 656 612 5504<br>info@ccrjuarez.org]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-106.464987,31.745466999999998,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Chihuahua</name>
+				<description><![CDATA[Pronaos Chihuahua<br>Jose Martí 5119 <br>Col Granjas. <br>Chihuahua<br>Tel.: 01 614 153 5153<br>info@ccrchihuahua.org]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-106.10409,28.667527000000003,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Durango</name>
+				<description><![CDATA[Pronaos Durango <br>Miguel de Cervantes Saavedra # 807 Sur, Col. Centro, Durango<br>edcastm@hotmail.com]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-104.660171,24.020723,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Celaya</name>
+				<description><![CDATA[Juan Bautista Morales 227 <br>Celaya, Gt, México<br>celaya@amorc1mexico.com]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.833625,20.523694,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Guanajuato</name>
+				<description><![CDATA[Logia Guanajuato Heptada Martinista<br>Cartagena 210<br>Col. Arbide, <br>León, Guanajuato<br>Lunes - Miércoles 21:00<br>Domingo primero de cada mes <br>Tel.: (477) 1613784 Cel-(477) 7241122<br>gunajuato@amorc1mexico.com]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-101.695504,21.122976,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Acapulco</name>
+				<description><![CDATA[Logia Acapulco Taller Martinista<br>Mal paso No. 1 <br>Col. Aguas Blancas<br>Acapulco, Guerrero<br>Domingo 09:30 - 11:00 hrs y público Miercoles y Sábados 18:00 - 20:00<br>Tel.: 01 744 480 0315<br>Acapulcoamorc@yahoo.com.mx]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-99.909132,16.86057,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Guadalajara</name>
+				<description><![CDATA[Logia Guadalajara taller Martinista<br>Nicolás Romero # 1366<br>Col. Chapultepec Country.<br>44620, Guadalajara Jalisco.<br>Martes 20:00 hrs - Lunes, Miércoles 19:00 y 20:00 hrs<br>Tel.: 01 33 3853 1729<br>guadalajara@amorc1mexico.org]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-103.361757,20.698416,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Quetzalcóatl</name>
+				<description><![CDATA[Logia Quetzalcóatl Heptada Martinista (http://www.paginasprodigy.com.mx/goreamorc/)<br>Calle 4 N° 35 Esq. Av. 1° de Mayo, Col San Pedro de los Pinos<br>C.P. 03800, D.F. México<br>Tel: 55 16 27 07, Fax: 55 16-63 95  <br>e-mail: ccrcquetzalcoatl@yahoo.com.mx]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-99.18607200000001,19.391093,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Teotihuacan</name>
+				<description><![CDATA[Pronaos Teotihuacan<br>Norte 40 No. 3613,Col 7 de Noviembre<br>C.P. 07840, D.F.<br>Sábados 12:30 hrs.]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-99.123888,19.460978,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Ecatepec</name>
+				<description><![CDATA[Tochtepec Mz. 250 Lote 2, Cd. Azteca, 2ª. Sección.<br>C.P. 57100, Ecatepec, Estado de México<br>Domingo 11:00 hrs. <br>Público Jueves y Sabado 10:00 - 19:00 hrs <br>Tel: 5783-0326 Tardes. <br>E-mail: ecatepecamorc@terra.com.mx]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-99.017469,19.536374,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Pitágoras</name>
+				<description><![CDATA[Pronaos Pitágoras<br>Circuito Misioneros # 77, Satélite<br>(atrás del Hospital Satélite)<br>Naucalpan de Juárez, Estado de México, México. C.P.: 53100 <br>Tel: 55 72 2148<br>pitagoras-amorc@hotmail.com]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-99.239856,19.514684,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Toluca</name>
+				<description><![CDATA[Capitulo Toluca<br>Priv. De Matamoros # 24 Col. Pilares, Metepec<br>Estado de Mexico<br>Domingo 10:00 hrs.<br>Tel.: 01 722 217 0102<br>tolucaamorc@terra.com.mx]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-99.594026,19.28434,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Tzintzun</name>
+				<description><![CDATA[Logia Tzintzun Heptada Martinista<br>Emeterio Gonzalez # 115<br>Col. Agustin Arriaga Rivera<br>58190, Morelia Michoacan<br>Jueves 20:30 hrs. <br>Público Martes, Miércoles 20:00 hrs.<br>Tel.: 01 443 315 0474<br>nosceteipsum3@hotmail.com]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-101.219498,19.694021,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Morelia</name>
+				<description><![CDATA[Pronaos Morelia taller Martinista<br>Vicente Santa María No. 1741, Col. Felíx Ireta C.P. 58070, <br>Morelia, Michoacán, México<br>Lunes 21:00 Hrs y Viernes 21:00 Hrs<br>Tel.: 3106 6420<br>morelia@amorc1mexico.com]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-101.188245,19.686011,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Xochicalco</name>
+				<description><![CDATA[Capítulo Xochicalco taller Martinista<br>Paseo de las Azucenas Nº 14 <br>Col. Bugambilias <br>Cuernavaca Morelos]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-99.18450600000001,18.911138000000005,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Querétaro</name>
+				<description><![CDATA[Pronaos Querétaro<br>Av. Universidad No. 76 Poniente<br>Centro, Querétaro<br>Lunes 21:00 hrs y Sabado 17:00 hrs<br>queretaro@amorc1mexico.com]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.397607,20.598228000000002,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Monterrey</name>
+				<description><![CDATA[Logia Monterrey Heptada Martinista<br>Félix U. Gómez nte. # 333.<br>Col. Obrera<br>Monterrey, N.L. México. C.P. 64010.<br>Tel. 01 81 8345 5903 a partir de las 7:00 pm, los lunes, miércoles y viernes).]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.29758,25.676477,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Evolución</name>
+				<description><![CDATA[Pronaos Evolución<br>David G. Berlanga #106<br>Colonia La Huerta<br>San Luis Potosí, S. L. P.<br>Tel.: 01 444 825 2019]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.99584500000002,22.15429,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Culiacán</name>
+				<description><![CDATA[Logia Culiacán taller Martinista<br>Esteban Vaca Calderon # 2210 <br>Col. Diaz Ordaz, Culiacan, Sinaloa<br>Martes y Jueves 20:00 Hrs]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-107.426505,24.774052000000005,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Los Mochis</name>
+				<description><![CDATA[Pronaos Los Mochis<br>Rosendo G. Castro, esquina con Ignacio Allende<br>Plaza Las Gaviotas Local No. 16 <br>Los Mochis, Sinaloa<br>Domingo 11:00 hrs <br>Público sábado 16:00 hrs]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-108.993119,25.785102,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Hermosillo</name>
+				<description><![CDATA[Capitulo Hermosillo taller Martinista<br>Calle Nuevo León 147, Col. San Benito.<br>Entre Calle Naranjo y Gral. Bernardo Reyes.<br>Hermosillo, Sonora. C.P.:83190<br>Actividades: Miembros: Martes 20:00hrs.<br>Miércoles 20:00hrs. Público: Jueves 20:00hrs.]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-110.96012,29.0884358,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Tabasco</name>
+				<description><![CDATA[Logia Delfos taller Martinista<br>Aguila # 201- A, <br>entre Altamira y Altamirano<br>Col. Atasta<br>C.P. 86000<br>Villahermosa, Tabasco<br>Sábado 8:00 hrs.<br>Teléfono 01 993 354 5569<br>amorctab@hotmail.com]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-92.947962,17.980264,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Aristóteles</name>
+				<description><![CDATA[Logia Aristóteles<br>Av. Cantinflas No 28<br>entre Fidencio Trejo y Playa las Hadas<br>H. Matamoros, Tam. C.P. 87300<br>México<br>Correo electrónico: rosacruz@amorc6.org<br>Teléfono: (868) 814-2840<br>Biblioteca Virtual (http://www.biblioteca.amorc6.org/)]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-97.473943,25.85849,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Nuevo Laredo</name>
+				<description><![CDATA[Pronaos Nuevo Laredo<br>Lincoln 4301<br>Nuevo Laredo, Tam.<br>Público domingo 11:00 hrs <br>13:00 (miembros)<br>Tel.: 01 867 715 1782 / 01 867 715 781]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-99.519385,27.479844,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Reynosa</name>
+				<description><![CDATA[Logia Reynosa Heptada Martinista<br>Rio Purificación #700<br>Col. Longoria<br>Reynosa Tam. C.P. 88660, México<br>Biblioteca Virtual (http://www.biblioteca.amorc6.org/)]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-98.295053,26.081493000000002,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Tampico-Madero</name>
+				<description><![CDATA[Pronaos Tampico-Madero<br>Sor Juana Ines de la Cruz<br>Tel.: 211 38 39]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-97.849098,22.285493,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Grupo de Estudio y Divulgación AMORC Lemuria</name>
+				<description><![CDATA[Grupo de Estudio y Divulgación Lemuria (G)<br>Dirección: Insurgentes # 372, Centro, Cd. Miguel Alemán, Tamaulipas. C.P. 88300<br>Actividades: Primer Lunes de cada mes a las 19:00 hrs.<br>Tel.: (897) 972 4661]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-99.02941000000001,26.400913,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Grupo de Estudio y Divulgación Victoria</name>
+				<description><![CDATA[Grupo de Estudio y Divulgación Victoria<br>Calle Alaska 102 Lote-12. Col . Libertad<br>Cd. Victoria, Tam.]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-99.16675000000001,23.769479,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Perote</name>
+				<description><![CDATA[Pronaos Perote <br>Anahuac # 12, Col Azteca, <br>Perote, Veracruz<br>Jueves 19:00 hrs]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-97.250354,19.560316,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Zoroastro</name>
+				<description><![CDATA[Logia Zoroastro<br>Othón Blanco, esquina con Civismo, Col. Hidalgo.<br>Apartado Postal 545<br>88660, Veracruz, Veracruz<br>Sábados 19:00 hrs <br>Público 16:30 hrs<br>Tel.: 01 229 934 2030]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-96.155713,19.187782,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Grupo de Divulgación y Estudio en Cancún</name>
+				<description><![CDATA[Grupo de Divulgación y Estudio en Cancún<br>Ave. Chilam Balam 345<br>Supermanzana 50, manzana 26, lote 3<br>Correo: saritzin@yahoo.com.mx<br>Tel: 01- 9988482841 Cel. 045-9981291869]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-86.850743,21.141229,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Grupo de Divulgación y Estudio de Mérida</name>
+				<description><![CDATA[Grupo de Divulgación y Estudio de Mérida<br>Tel: 01-999-289-03-34]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-89.622173,20.963203,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>NICARAGUA</name>
+				<country>NICARAGUA</country>
+				<styleUrl>#icon-55-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-84.660645,12.940322,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz A.M.O.R.C. Martha Lewis</name>
+				<description><![CDATA[Logia Martha Lewis<br>Puente Larreynaga 2 C. abajo 50 Vrs. Lago<br>Managua, Nicaragua. <br>Tel. 22480200.]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-86.242976,12.146882,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz A.M.O.R.C. León</name>
+				<description><![CDATA[Pronaos León<br>Radio Morena 1/2 Cuadra al Sur<br>León, Nicaragua]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-86.879818,12.420955,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PANAMA</name>
+				<country>PANAMA</country>
+				<styleUrl>#icon-55-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-78.701591,9.361337,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Boquete</name>
+				<description><![CDATA[Pronaos Boquete<br>Principal S/N Col.Alto Lindo S/N<br>Boquete, Chiriquí, Panamá<br>1º y 3º Miércoles 19:30 Hrs- Lunes y Martes 19:30 Hrs con previo cita]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-82.43263,8.777232,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Changuinola</name>
+				<description><![CDATA[Pronaos Changuinola<br>Coibita S/N, Col Empalme<br>Changuinola, Provincia Bocas del Toro, Panamá<br>1º y 3º Domingos 15:00-16:00 Hrs y 2º y 3º Domingos 14:00-15:00 Hrs]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-82.519984,9.429334,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC David</name>
+				<description><![CDATA[Logia David<br>José Domingo Díaz, Barrio el Retiro<br>Sábado 19:00 hrs<br>Tel.: 7752029<br>David, Chiriqui, Panama]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-82.422996,8.430135,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC La Concepción</name>
+				<description><![CDATA[Pronaos La Concepción<br>Barrio Belén <br>La Concepción, Chiriquí, Panamá<br>2º y 4º Domingos 11:30 Hrs]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-82.62074900000002,8.517066,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Panamá</name>
+				<description><![CDATA[Logia Panamá Heptada Martinista (http://www.actiweb.es/rosacruz/)<br>15, Ave.Santa Elena # 7818, Col. Parque Lefebre<br>Panamá<br>Tel: 2241622<br>Miércoles 8:00 pm]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-79.486674,9.016786,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Puerto Armuelles</name>
+				<description><![CDATA[Pronaos Puerto Armuelles<br>Antiguo Muelle S/N, Col. San Vicente<br>Puerto Armuelles, Chiriquí, Panamá<br>1º y 3º Domingo 10:30 Hrs -12:00 Hrs<br>Tel: 6572-8602 / 66419269]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-82.865839,8.259718,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PARAGUAY</name>
+				<country>PARAGUAY</country>
+				<styleUrl>#icon-55-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-58.930664,-21.2689,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Asunción</name>
+				<description><![CDATA[Logia Asunción<br>Calle R.I.3 Corrales 1637<br>Asunción <br>Sábados 16:00 a 20:00 hrs.<br>Tel.: 59521660286<br>logasuncion@hotmail.com<br>PARAGUAY]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-57.634041,-25.303683,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Dr. H. Spencer Lewis</name>
+				<description><![CDATA[Pronaos Dr. H. Spencer Lewis<br>Pedro Dupuy entre Av. Campo Vía y Eugenio A.Garay.<br>Ciudad del Este.<br>Domingo 9:00 hrs.<br>Tel.: 0983515979 / 0983681282<br>ccrc.hsl.py@gmail.com<br>PARAGUAY]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-54.624453,-25.526139000000004,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PERU</name>
+				<country>PERU</country>
+				<styleUrl>#icon-55-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-72.773437,-10.141932,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Arequipa</name>
+				<description><![CDATA[Logia Arequipa<br>Calle Alfonso Ugarte 620<br>Yanahuara, Arequipa<br>Público viernes 19:00 hrs, viernes 20:00 hrs<br>logiaamorcarequipa@gmail.com <br>Telf. (51 54) 205 260]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-71.540426,-16.386016,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Iquitos</name>
+				<description><![CDATA[Logia Las Esfinges <br>Calle Romulo Espinar 570<br>Iquitos<br>Viernes y sábados 20:00 hrs, Público Miércoles 20:00 hrs<br>ccraiquitos@yahoo.es Inf. : hermanpinedopanduro@rocketmail.com]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-73.251493,-3.741894,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Kuntur Wasi</name>
+				<description><![CDATA[Pronaos Kuntur Wasi<br>Calle 354 Miguel Iglesias, <br>Cajamarca, Perú<br>amorcaj@yahoo.es <br>Tel.: 976 954 800 / 976-304513]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-78.519362,-7.15128,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Lima</name>
+				<description><![CDATA[Logia y Heptada Matinista Lima  (http://rosacruz-amorc.com/)<br>Calle Zaragoza 483<br>Pueblo Libre - Lima – Perú <br>Miércoles 20:00 hrs<br>(511) 461-6972<br>mail: ccrc.lima@gmail.com <br>PERU]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-77.065916,-12.068552,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz A.M.O.R.C. Chiclayo</name>
+				<description><![CDATA[Capítulo Chiclayo<br>Av. Eufemio Lora y Lora 1145 <br>Urb. La Primavera.<br>Chiclayo<br>Público Sábado 16:00 hrs - Sabado 18:00 hrs <br>gladysodarpalacios@hotmail.com<br>Tel.: 074-225840]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-79.851454,-6.76563,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Luz Cósmica Arequipa</name>
+				<description><![CDATA[Capítulo Luz Cósmica Arequipa<br>235 Columbia, José Luis Bustamente y Rivero, <br>Arequipa<br>Martes 20:00 hrs - Sábado 12:00 hrs<br>luzcosmica7@hotmail.com<br>PERU]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-71.517037,-16.413723,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Piura</name>
+				<description><![CDATA[Pronaos Piura<br>Calle Pachitea 01<br>Piura <br>Miércoles 20:30 hrs <br>Cel. 969 974 477 <br>bernaola@hotmail.com]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-80.63008900000001,-5.187917,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PUERTO RICO</name>
+				<country>PUERTO RICO</country>
+				<styleUrl>#icon-55-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-66.508484,18.245003,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Akhnatón Ponce</name>
+				<description><![CDATA[Logia Akhnatón Ponce (http://www.rosacruzamorcpr.org/)<br>1184 Avenida Hostos, C.P.: 00-717-0944,<br>Ponce.<br>Domingo 10:30 hrs, Público Martes 19:30 hrs<br>Tel.: 787-397-8574<br>ccraponce@amorcpr.org<br>PUERTO RICO]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-66.613584,17.999142,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Luz de AMORC de San Juan</name>
+				<description><![CDATA[Logia Luz de AMORC de San Juan y Heptada Martinista (http://www.rosacruzamorcpr.org/)<br>Calle Aponte 305, Santurce<br>PO Box 12-222<br>San Juan, Puerto Rico 00914<br>Domingo 9:30 hrs, Público Martes 19:30 hrs.<br>Tel.: 787-727-1329<br>PUERTO RICO]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-66.057916,18.446077,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Grupo de Estudios y Divulgación de Merendero de Quebradillas</name>
+				<description><![CDATA[Grupo de Estudios y Divulgación de Merendero de Quebradillas<br>Segundo Domingo del mes a las 10:00 hrs.]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-66.948044,18.488238,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>REPUBLICA DOMINICANA</name>
+				<country>REPUBLICA DOMINICANA</country>
+				<styleUrl>#icon-55-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-69.180908,18.927072,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Luz del Cibao, Santiago</name>
+				<description><![CDATA[Pronaos Luz del Cibao<br>Calle Juan Goico Alix esq. Germán Soriano<br>Ensanche Julia, Santiago<br>Republica Dominicana<br>Domingos 10:30 Hrs<br>Tels.: 809-467-8161 y 809-753-2475<br>e-mail: amorclc@gmail.com<br>REPUBLICA DOMINICANA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-70.700144,19.457711,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC de Santo Domingo</name>
+				<description><![CDATA[Logia Santo Domingo<br>Calle Enrique Henríquez No. 206, Gazcue<br>Santo Domingo, Rep. Dom.<br>Domingos 9:30 Hrs y Público Lunes a Sábado 9:00,13:00 y 14:00, 18:00 Hrs <br>Tel.: 809-687-7867<br>e-mail: logiarosacruzstodgo@gmail.com<br>REPUBLICA DOMINICANA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-69.897841,18.470176,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>URUGUAY</name>
+				<country>URUGUAY</country>
+				<styleUrl>#icon-55-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-55.052490000000006,-32.500496,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Titurel</name>
+				<description><![CDATA[Logia Titurel Heptada Martinista<br>2276 Maldonado<br>Montevideo<br>Miércoles  20:30 hrs y Sábado 15:00 hrs<br>(5982)-4095882- 4021459<br>rosacruztiturel@gmail.com<br>URUGUA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-56.177237,-34.908792,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>VENEZUELA</name>
+				<country>VENEZUELA</country>
+				<styleUrl>#icon-55-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-66.09375,6.8828,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Luz de Portuguesa</name>
+				<description><![CDATA[Pronaos Luz de Portuguesa<br>Esq. Calle 03 con Av. 04, Barrio Bolívar, Acarigua, Portuguesa.<br>Domingos 09:30 hrs.<br>Tel.: 0414-9731057 / 0255-6227339<br>ccraluzdeportuguesa@gmail.com<br>Venezuela]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-69.184695,9.551175,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Anaco</name>
+				<description><![CDATA[Pronaos Anaco<br>Av. Los Pilones, Llenadero de Agua de Giorgio, al lado del Hotel Paraíso, Detrás del antiguo local de Granitos Guayana. <br>Actividad Pública sólo el segundo sábado de cada mes <br>Anaco, Anzoategui]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-64.45035,9.436446,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Delta</name>
+				<description><![CDATA[Capítulo Delta<br>Calle San Félix 30-03-2, <br>Col. Casco Central, frente al Ateneo, entre calle Bólivar y calle Juncal<br>Barcelona<br>Miércoles 18:00 hrs - Domingos 10:00 hrs<br>Teléfono: (0281) 274.45.06]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-64.682393,10.134792,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Barinas</name>
+				<description><![CDATA[Pronaos Barinas<br>Av. Venezuela S/N, Sector Campo Movil<br>C.P.: 5201<br>Martes 19:30 hrs<br>pronaosbarinas@yahoo.es<br>Barinas VENEZUELA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-70.242677,8.611913,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Barquisimeto</name>
+				<description><![CDATA[Logia Barquisimeto Heptada Martinista<br>calle 60 esquina carrera 18,<br>Barquisimeto, Estado Lara.<br>Tel.:00582514415357<br>amorcbrqto@gmail.com<br>Logia Martes 7:30 P.M.<br>Heptada Martinista último sábado de cada mes.<br>VENEZUELA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-69.353385,10.062132,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Alden</name>
+				<description><![CDATA[Logia Alden Heptada Martinista (http://rosacrucesalden.es.tl/)<br>Ferrenquín a Platanal Nº 445<br>La Candelaria, Caracas 1010. Dtto.<br>Viernes y Domingo 18:45 hrs.<br>Telfax.: (0058-212) 5728324<br>rosacruzalden@gmail.com<br>VENEZUELA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-66.906309,10.505703,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Luz de Oriente</name>
+				<description><![CDATA[Capítulo Luz de Oriente<br>Av. Cancamure S/N<br>Cumaná<br>Lunes 19:30 hrs Miércoles, Viernes, Sábado y Domingo 10:00 - 15:00 - 19:30 hrs<br>Tel.: 293-6430725]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-64.167259,10.4454,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC El Tigre</name>
+				<description><![CDATA[Pronaos El Tigre<br>Av. Winston Churchill Sur # 72 <br>Col. Pueblo Nuevo Sur C.P.: 6050<br>El Tigre<br>Miercoles 18:30 hrs y Público Lunes 18:30 hrs.<br>ccraeltigre@gmail.com]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-64.236031,8.883121,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Altos Mirandinos</name>
+				<description><![CDATA[Pronaos Altos Mirandinos<br>Av. La Hoyada, Edif Cambural<br>Los Teques, Miranda<br>Sábados 18:00 hrs.<br>VENEZUELA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-67.041256,10.343386,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Cenit</name>
+				<description><![CDATA[Logia Cenit<br>Calle 89 B Edificio 10-38<br>Sector Veritas<br>Maracaibo, VENEZUELA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-71.613425,10.650802,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Logia Lewis</name>
+				<description><![CDATA[Logia Lewis Heptada Martinista (http://logialewisamorc.blogspot.mx/)<br>Dirección: Urbanización Tiuna.<br>(Sector La Romana)<br>Calle 2.Número 10. (Entre Segunda y Tercera Transversal)<br>Maracay. Estado Aragua.<br>Viernes 19:30 hrs.<br>Teléfono: 058 0243-5547175<br>ccrosacruzamorclewis@hotmail.com<br>VENEZUELA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-67.615335,10.257471,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Maturin</name>
+				<description><![CDATA[Pronaos Maturin<br>Calle 5, antigua Santo Domingo<br>Casa No. 136<br>La Manga<br>Maturin Monagas<br>Venezuela<br>CP 6201<br>Domingo 10:00 Hrs -<br>Público Miércoles y Viernes 16:00 a 18:00 hrs,<br>amorcmaturin@gmail.com<br>Tel 58 412 877 0094]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-63.172181,9.751461,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>(*) Centro Cultural Rosacruz AMORC Puerto Ordaz</name>
+				<description><![CDATA[Pronaos Puerto Ordaz (http://perso.wanadoo.es/ccrapoven/)<br>Carrera Upata Sotano Hotel Tepuy, Sector Centropuerto Ordaz, C.P.: 8050<br>Puerto Ordaz.<br>0286-9524579, Fax- 0286-9512745<br>ccrosacruzamorcpuertoordaz_gmail.com<br>Domingos 10:00 hrs.]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-62.716204999999995,8.314957,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Kut-Hu-Mi</name>
+				<description><![CDATA[Capitulo Kut-Hu-Mi (http://ccrckuthumi.blogspot.mx/)<br>interseccion avenida rotaria con prolongacion unidad vecinal vereda 2 # 62<br>Sábados 17:00 hrs.<br>Tel.:0276 6110804<br>Apartado postal 265<br>VENEZUELA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-72.221847,7.749105000000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Luz de Guayana</name>
+				<description><![CDATA[Logia Luz de Guayana<br><br><br>Avenida Antonio de Berrios, a 200 metros del Modulo del IVSS de Manoa.<br>San Felix C.P.: 8051, Bolivar, Venezuela<br>Tel.: (0286) 971.04.05<br>Horarios de Atención al Publico:<br>Lunes, Miércoles y Viernes de 7pm a 9pm]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-62.65696,8.357663,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC San Juan</name>
+				<description><![CDATA[Pronaos San Juan de AMORC<br>16 Avenida Sendrea, Casco Central, San Juan de Los Morros, Guárico, <br>Domingo 11:00 hrs.<br>VENEZUELA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-67.357467,9.909967,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Validivar</name>
+				<description><![CDATA[Logia Validivar Heptada Martinista<br>Callejón Prebo,<br>Residencias “EDIMAR”, Planta Baja <br>Valencia, Estado Carabobo,<br>Sábado 9:00, Domingos 11:00 hrs<br>Teléfono: 4244279721<br>logia_validivar@yahoo.com<br>VENEZUELA]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-68.008225,10.205124,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cultural Rosacruz AMORC Menes</name>
+				<description><![CDATA[Pronaos Menes<br>Av. Santa Bárbara, Sector la Marchantica<br>Valera, Trujillo, Venezuela]]></description>
+				<styleUrl>#icon-22</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-70.601535,9.325427,0.0</coordinates>
+				</Point>
+			</Placemark>		
+</kml>
