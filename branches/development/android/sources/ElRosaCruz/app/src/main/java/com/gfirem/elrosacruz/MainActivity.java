@@ -13,7 +13,6 @@ import android.text.Html;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -25,9 +24,6 @@ import android.widget.Toast;
 
 import com.gfirem.elrosacruz.entity.NavigationDataSet;
 import com.gfirem.elrosacruz.entity.Placemark;
-import com.gfirem.elrosacruz.entity.Size;
-import com.gfirem.elrosacruz.utils.BaseUtils;
-import com.gfirem.elrosacruz.utils.DisplayUtil;
 import com.gfirem.elrosacruz.utils.MapHelper;
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
@@ -45,6 +41,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 import com.sothree.slidinguppanel.SlidingUpPanelLayout;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
@@ -67,6 +64,7 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
     private TextView txtPlaceTitle;
     private TextView txtPlaceDescription;
     private RelativeLayout lytOverMenu, detailsContainer;
+    private LocationManager mLocationManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -135,6 +133,7 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
                 txtFind.setHint("Encuentra tu templo");
                 if (mMap != null && places != null && mapHelper != null) {
                     places = markerDataSet.getPlacemarks();
+                    mMap.clear();
                     addMarkers(places);
                     txtFind.setCursorVisible(false);
                 }
@@ -239,12 +238,10 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
         places = markerDataSet.getPlacemarks();
         mapHelper = new MapHelper(googleMap);
 
-        markerDataSet.setPlacemarks(places);
         mMap.setOnMapLoadedCallback(new GoogleMap.OnMapLoadedCallback() {
             @Override
             public void onMapLoaded() {
                 hideCenterWaiting();
-//                 setCurrentLocation(mMap);
                 if (my_location != null) {
                     LatLng near_places = places.get(0).getCoordinates();
                     mapHelper.zoomToFitLatLongs(my_location, near_places);
@@ -254,8 +251,7 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
                             .snippet(
                                     "El templo te queda a " + Math.ceil(places.get(0).getDistance()) + "KM")
                             .title("Mi posición")).showInfoWindow();
-                }
-                else{
+                } else {
                     mapHelper.zoomToFitLatLongs(init_1, init_2);
                 }
                 addMarkers(places);
@@ -263,9 +259,9 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
         });
 
         mMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
-        mMap.getUiSettings().setMyLocationButtonEnabled(true);
+        mMap.getUiSettings().setMyLocationButtonEnabled(false);
         mMap.getUiSettings().setMapToolbarEnabled(false);
-        mMap.getUiSettings().setCompassEnabled(true);
+        mMap.getUiSettings().setCompassEnabled(false);
         mMap.getUiSettings().setRotateGesturesEnabled(true);
         // InfoWindowMap infoWindow = new
         // InfoWindowMap(getActivity());
@@ -278,7 +274,7 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
                 Placemark current = markerDataSet.findById(marker.getId());
                 if (current != null) {
                     marker.hideInfoWindow();
-                    if(lytPanel != null && !current.isCountry()){
+                    if (lytPanel != null && !current.isCountry()) {
                         showOverMenu();
 
 //                        Size size1 = BaseUtils.getTextSize(current.getTitle());
@@ -291,8 +287,7 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
                         txtPlaceTitle.setText(current.getTitle());
                         txtPlaceDescription.setText(Html.fromHtml(current.getDescription()));
                         lytPanel.setPanelState(SlidingUpPanelLayout.PanelState.EXPANDED);
-                    }
-                    else{
+                    } else {
                         Toast.makeText(MainActivity.this, "No hay detalles! ", Toast.LENGTH_SHORT).show();
                     }
                 }
@@ -379,49 +374,21 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
         return lytOverMenu.getVisibility() == View.VISIBLE;
     }
 
-    public void setCurrentLocation(GoogleMap map) {
-        map.setMyLocationEnabled(true);
-        LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
-        Criteria criteria = new Criteria();
-        Location location = locationManager.getLastKnownLocation(locationManager.getBestProvider(criteria, true));
-        if (location != null) {
-            CameraPosition position = new CameraPosition.Builder()
-                    .target(new LatLng(location.getLatitude(), location.getLongitude())).build();
-            map.animateCamera(CameraUpdateFactory.newCameraPosition(position));
+    private Location getMyLocation() {
+        mLocationManager = (LocationManager)getApplicationContext().getSystemService(LOCATION_SERVICE);
+        List<String> providers = mLocationManager.getProviders(true);
+        Location bestLocation = null;
+        for (String provider : providers) {
+            Location l = mLocationManager.getLastKnownLocation(provider);
+            if (l == null) {
+                continue;
+            }
+            if (bestLocation == null || l.getAccuracy() < bestLocation.getAccuracy()) {
+                // Found best last known location: %s", l);
+                bestLocation = l;
+            }
         }
-    }
-
-    public Location getMyLocation() {
-        LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
-        Criteria criteria = new Criteria();
-        Location location = null;
-        String provider = locationManager.getBestProvider(criteria, true);
-        if (provider != null) {
-
-            locationManager.requestLocationUpdates(provider, 100, 1, new LocationListener() {
-                @Override
-                public void onLocationChanged(Location location) {
-                    my_location = new LatLng(location.getLatitude(), location.getLongitude());
-                }
-
-                @Override
-                public void onStatusChanged(String provider, int status, Bundle extras) {
-
-                }
-
-                @Override
-                public void onProviderEnabled(String provider) {
-
-                }
-
-                @Override
-                public void onProviderDisabled(String provider) {
-
-                }
-            });
-            location = locationManager.getLastKnownLocation(provider);
-        }
-        return location;
+        return bestLocation;
     }
 
     public void moveToLocation(final GoogleMap map, final LatLng latLng) {
