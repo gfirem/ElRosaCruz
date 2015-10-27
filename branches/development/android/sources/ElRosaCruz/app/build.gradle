@@ -1,6 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        debug {
+            keyAlias 'gfirem.rosacruz'
+            keyPassword 'todyC0-8oo'
+            storeFile file('gfirem.keystore')
+            storePassword 'dB-S29Inside'
+        }
+    }
+    
     compileSdkVersion 22
     buildToolsVersion "22.0.1"
 
