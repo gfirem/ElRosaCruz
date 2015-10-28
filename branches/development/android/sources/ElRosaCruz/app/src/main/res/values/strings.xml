@@ -2,4 +2,10 @@
     <string name="app_name">ElRosaCruz</string>
     <string name="app_title">El Rosa Cruz</string>
     <string name="title_activity_main">Templos</string>
+    <string name="text_find_temple">Encuentra tu templo</string>
+    <string name="text_my_location">Mi posición</string>
+    <string name="text_the_temple_is">El templo te queda a </string>
+    <string name="text_measure_units_kilometer">Km</string>
+    <string name="text_no_details">No hay detalles!</string>
+    <string name="text_more_info">Toca para más información</string>
 </resources>

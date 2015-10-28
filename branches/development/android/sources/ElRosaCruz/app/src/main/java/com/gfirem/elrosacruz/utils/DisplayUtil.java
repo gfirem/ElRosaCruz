@@ -1,21 +1,24 @@
 package com.gfirem.elrosacruz.utils;
 
-import android.annotation.SuppressLint;
 import android.content.Context;
-import android.os.Build;
 import android.util.DisplayMetrics;
 import android.util.TypedValue;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.AlphaAnimation;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+
 import com.nineoldandroids.view.ViewHelper;
 
 public class DisplayUtil {
 
 	public static int getDPI(Context ctx) {
 		return (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, (float) 1, ctx.getResources().getDisplayMetrics());
+	}
+
+	public static float getRatio(Context ctx){
+        float w = getDisplayWidth(ctx), h = getDisplayHeight(ctx);
+        return Math.max(w,h) / Math.min(w,h);
 	}
 
     public static float getDPI(Context ctx, float dipValue) {
@@ -40,7 +43,7 @@ public class DisplayUtil {
         return getHeightPercent(ctx, aPercent) / ctx.getResources().getDisplayMetrics().scaledDensity;
     }
 
-    public static int getDisplayWith(Context ctx) {
+    public static int getDisplayWidth(Context ctx) {
 		return ctx.getResources().getDisplayMetrics().widthPixels;
 	}
 
@@ -99,7 +102,7 @@ public class DisplayUtil {
 	}
 
 	public static int getWithPercent(Context ctx, int aPercent) {
-		return getPercent(aPercent, getDisplayWith(ctx));
+		return getPercent(aPercent, getDisplayWidth(ctx));
 	}
 
 	public static int getPercent(int aPercent, int aTotal) {

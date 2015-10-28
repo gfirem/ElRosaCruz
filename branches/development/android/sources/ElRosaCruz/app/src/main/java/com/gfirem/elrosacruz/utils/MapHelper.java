@@ -11,6 +11,7 @@ import android.os.SystemClock;
 import android.util.Log;
 import android.view.animation.LinearInterpolator;
 
+import com.gfirem.elrosacruz.MainActivity;
 import com.gfirem.elrosacruz.entity.MapTypes;
 import com.gfirem.elrosacruz.entity.Placemark;
 import com.gfirem.elrosacruz.map.LatLongLoadedListner;
@@ -20,7 +21,6 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.GoogleMap.CancelableCallback;
 import com.google.android.gms.maps.Projection;
-import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.Circle;
 import com.google.android.gms.maps.model.CircleOptions;
@@ -362,13 +362,13 @@ public class MapHelper {
      * @param latlng : The array of LatLng's to zoom to
      */
     public void zoomToFitLatLongs(LatLng... latlng) {
-        LatLngBounds.Builder b = new LatLngBounds.Builder();
+        LatLngBounds.Builder bounds = new LatLngBounds.Builder();
         for (LatLng l : latlng) {
-            b.include(l);
+            bounds.include(l);
         }
-        LatLngBounds bounds = b.build();
-//		CameraUpdate cu = CameraUpdateFactory.newLatLngBounds(bounds, 25, 25, 5);
-        CameraUpdate cu = CameraUpdateFactory.newLatLngBounds(bounds, 250);
+        int padding = (int) Math.min((DisplayUtil.getRatio(MainActivity.getContext()) * 160), (DisplayUtil.getDisplayWidth(MainActivity.getContext()) - 40) / 2);
+        //CameraUpdate cu = CameraUpdateFactory.newLatLngBounds(bounds.build(), 25, 25, 5);
+        CameraUpdate cu = CameraUpdateFactory.newLatLngBounds(bounds.build(), padding);
         googleMap.animateCamera(cu);
     }
 

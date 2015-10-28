@@ -54,7 +54,7 @@ public class ApplicationController extends Application {
             // To enable debug logging use: adb shell setprop log.tag.GAv4 DEBUG
             mTracker = analytics.newTracker("UA-56060946-4");
             mTracker.enableExceptionReporting(true);
-            mTracker.enableAdvertisingIdCollection(true);
+            mTracker.enableAdvertisingIdCollection(false);
             mTracker.enableAutoActivityTracking(true);
         }
         return mTracker;

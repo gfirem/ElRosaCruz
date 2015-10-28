@@ -1,10 +1,10 @@
 package com.gfirem.elrosacruz;
 
+import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
-import android.location.Criteria;
+import android.content.SharedPreferences;
 import android.location.Location;
-import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
@@ -36,6 +36,7 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.sothree.slidinguppanel.SlidingUpPanelLayout;
@@ -46,15 +47,15 @@ import java.util.List;
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 public class MainActivity extends FragmentActivity implements OnMapReadyCallback {
-
+    public static final String PREFS_NAME = "ElRosaCruz.pref";
     private static final String TAG = "MainActivity";
     private GoogleMap mMap;
     private Tracker mTracker;
     private View spinnerCenterLoading;
     private NavigationDataSet markerDataSet;
     private LatLng my_location;
-    private LatLng init_1 = new LatLng(41.692712, -130.250764);
-    private LatLng init_2 = new LatLng(-55.872848, -32.580848);
+    private LatLng init_1;
+    private LatLng init_2;
     private MapHelper mapHelper;
     private ArrayList<Placemark> places;
     private AutoCompleteTextView txtFind;
@@ -66,10 +67,29 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
     private RelativeLayout lytOverMenu, detailsContainer;
     private LocationManager mLocationManager;
 
+    private static Activity ctx;
+    public static Context getContext(){
+        return ctx.getApplicationContext();
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        ctx = this;
+
+        // Restore preferences
+        SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
+        // Get bbox defaults
+        float bound_top = settings.getFloat("bound_top", (float) 41.692712);
+        float bound_left = settings.getFloat("bound_left", (float) -130.250764);
+        float bound_bottom = settings.getFloat("bound_bottom", (float) -55.872848);
+        float bound_right = settings.getFloat("bound_right", (float) -32.580848);
+
+        init_1 = new LatLng(bound_top, bound_left);
+        init_2 = new LatLng(bound_bottom, bound_right);
+
 
         spinnerCenterLoading = findViewById(R.id.progress);
         txtFind = (AutoCompleteTextView) findViewById(R.id.txtFind);
@@ -85,7 +105,7 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
         lytPanel.setShadowHeight(0);
         lytPanel.setCoveredFadeColor(getResources().getColor(android.R.color.transparent));
         txtFind.setText("");
-        txtFind.setHint("Encuentra tu templo");
+        txtFind.setHint(R.string.text_find_temple);
         txtFind.setCursorVisible(true);
 
         lytOverMenu.setOnClickListener(new View.OnClickListener() {
@@ -130,7 +150,7 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
             @Override
             public void onClick(View v) {
                 txtFind.setText("");
-                txtFind.setHint("Encuentra tu templo");
+                txtFind.setHint(R.string.text_find_temple);
                 if (mMap != null && places != null && mapHelper != null) {
                     places = markerDataSet.getPlacemarks();
                     mMap.clear();
@@ -156,7 +176,7 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
                     btnClear.bringToFront();
                 } else {
                     btnClear.setVisibility(View.GONE);
-                    txtFind.setHint("Encuentra tu templo");
+                    txtFind.setHint(R.string.text_find_temple);
                 }
             }
 
@@ -248,13 +268,35 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
                     addMarker(new MarkerOptions()
                             .icon(BitmapDescriptorFactory.fromResource(R.drawable.my_position))
                             .position(my_location)
-                            .snippet(
-                                    "El templo te queda a " + Math.ceil(places.get(0).getDistance()) + "KM")
-                            .title("Mi posición")).showInfoWindow();
+                            .snippet(getString(R.string.text_the_temple_is) + Math.ceil(places.get(0).getDistance()) + getString(R.string.text_measure_units_kilometer))
+                            .title(getString(R.string.text_my_location))).showInfoWindow();
                 } else {
                     mapHelper.zoomToFitLatLongs(init_1, init_2);
                 }
                 addMarkers(places);
+            }
+        });
+
+        mMap.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
+            @Override
+            public void onMapClick(LatLng latLng) {
+                /*Projection projection = mMap.getProjection();
+                Point p = projection.toScreenLocation(point);
+                LatLng topLeft = projection.fromScreenLocation(new Point(p.x - halfWidth, p.y - halfHeight));
+                LatLng bottomRight = projection.fromScreenLocation(new Point(p.x + halfWidth, p.y + halfHeight));*/
+                LatLngBounds curScreen = mMap.getProjection().getVisibleRegion().latLngBounds;
+
+                // All objects are from android.context.Context
+                SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
+                SharedPreferences.Editor editor = settings.edit();
+
+                editor.putFloat("bound_top",(float)curScreen.northeast.latitude);
+                editor.putFloat("bound_left",(float)curScreen.northeast.longitude);
+                editor.putFloat("bound_bottom",(float)curScreen.southwest.longitude);
+                editor.putFloat("bound_right",(float)curScreen.southwest.longitude);
+
+                // Commit the edits!
+                editor.commit();
             }
         });
 
@@ -270,7 +312,6 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
 
             @Override
             public void onInfoWindowClick(Marker marker) {
-
                 Placemark current = markerDataSet.findById(marker.getId());
                 if (current != null) {
                     marker.hideInfoWindow();
@@ -287,13 +328,22 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
                         txtPlaceTitle.setText(current.getTitle());
                         txtPlaceDescription.setText(Html.fromHtml(current.getDescription()));
                         lytPanel.setPanelState(SlidingUpPanelLayout.PanelState.EXPANDED);
-                    } else {
-                        Toast.makeText(MainActivity.this, "No hay detalles! ", Toast.LENGTH_SHORT).show();
+
+                        return;
                     }
                 }
 
+                Toast.makeText(MainActivity.this, getString(R.string.text_no_details), Toast.LENGTH_SHORT).show();
             }
         });
+    }
+
+    @Override
+    public void onBackPressed() {
+        if(lytPanel != null && lytPanel.getPanelState().equals(SlidingUpPanelLayout.PanelState.EXPANDED)){
+            lytPanel.setPanelState(SlidingUpPanelLayout.PanelState.COLLAPSED);
+        }
+        else super.onBackPressed();
     }
 
     @Override
@@ -314,6 +364,7 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
 
         imm.hideSoftInputFromWindow(txtFind.getWindowToken(), 0);
     }
+
 
 
     /**
@@ -402,7 +453,7 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
         for (Placemark item : places) {
             item.id = addMarker(new MarkerOptions()
                     .icon(BitmapDescriptorFactory.fromResource(R.drawable.marker))
-                    .position(item.getCoordinates()).snippet("Toca para mas información")
+                    .position(item.getCoordinates()).snippet(getString(R.string.text_more_info))
                     .title(item.getTitle())).getId();
         }
     }
@@ -410,5 +461,4 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
     public Marker addMarker(MarkerOptions options) {
         return mMap.addMarker(options);
     }
-
 }
