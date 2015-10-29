@@ -32,6 +32,7 @@ import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.Projection;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.CameraPosition;
@@ -54,8 +55,8 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
     private View spinnerCenterLoading;
     private NavigationDataSet markerDataSet;
     private LatLng my_location;
-    private LatLng init_1;
-    private LatLng init_2;
+    private LatLng init_1 = new LatLng(41.692712, -130.250764);
+    private LatLng init_2 = new LatLng(-55.872848,  -32.580848);
     private MapHelper mapHelper;
     private ArrayList<Placemark> places;
     private AutoCompleteTextView txtFind;
@@ -78,18 +79,6 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
         setContentView(R.layout.activity_main);
 
         ctx = this;
-
-        // Restore preferences
-        SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
-        // Get bbox defaults
-        float bound_top = settings.getFloat("bound_top", (float) 41.692712);
-        float bound_left = settings.getFloat("bound_left", (float) -130.250764);
-        float bound_bottom = settings.getFloat("bound_bottom", (float) -55.872848);
-        float bound_right = settings.getFloat("bound_right", (float) -32.580848);
-
-        init_1 = new LatLng(bound_top, bound_left);
-        init_2 = new LatLng(bound_bottom, bound_right);
-
 
         spinnerCenterLoading = findViewById(R.id.progress);
         txtFind = (AutoCompleteTextView) findViewById(R.id.txtFind);
@@ -263,8 +252,8 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
             public void onMapLoaded() {
                 hideCenterWaiting();
                 if (my_location != null) {
-                    LatLng near_places = places.get(0).getCoordinates();
-                    mapHelper.zoomToFitLatLongs(my_location, near_places);
+                    LatLng near_place = places.get(0).getCoordinates();
+                    mapHelper.zoomToFitLatLongs(my_location, near_place);
                     addMarker(new MarkerOptions()
                             .icon(BitmapDescriptorFactory.fromResource(R.drawable.my_position))
                             .position(my_location)
@@ -279,21 +268,13 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
 
         mMap.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
             @Override
-            public void onMapClick(LatLng latLng) {
-                /*Projection projection = mMap.getProjection();
-                Point p = projection.toScreenLocation(point);
-                LatLng topLeft = projection.fromScreenLocation(new Point(p.x - halfWidth, p.y - halfHeight));
-                LatLng bottomRight = projection.fromScreenLocation(new Point(p.x + halfWidth, p.y + halfHeight));*/
-                LatLngBounds curScreen = mMap.getProjection().getVisibleRegion().latLngBounds;
-
+            public void onMapClick(LatLng point) {
                 // All objects are from android.context.Context
                 SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
                 SharedPreferences.Editor editor = settings.edit();
 
-                editor.putFloat("bound_top",(float)curScreen.northeast.latitude);
-                editor.putFloat("bound_left",(float)curScreen.northeast.longitude);
-                editor.putFloat("bound_bottom",(float)curScreen.southwest.longitude);
-                editor.putFloat("bound_right",(float)curScreen.southwest.longitude);
+                editor.putFloat("userPosition_latitude",(float)point.latitude);
+                editor.putFloat("userPosition_longitude",(float)point.longitude);
 
                 // Commit the edits!
                 editor.commit();
@@ -437,6 +418,19 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
             if (bestLocation == null || l.getAccuracy() < bestLocation.getAccuracy()) {
                 // Found best last known location: %s", l);
                 bestLocation = l;
+            }
+        }
+
+        if(bestLocation == null){
+            // Restore preferences
+            SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
+            // Get stored last user position
+            double latitude = settings.getFloat("userPosition_latitude", 0f);
+            double longitude = settings.getFloat("userPosition_longitude", 0f);
+            if(latitude != 0f){
+                bestLocation = new Location("SharedPreferences");
+                bestLocation.setLatitude(latitude);
+                bestLocation.setLongitude(longitude);
             }
         }
         return bestLocation;
